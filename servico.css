@@ -1,0 +1,142 @@
+/* Reset básico para garantir que não há margens ou preenchimentos indesejados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav img {
+    height: 40px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(187,223,250);
+    background: linear-gradient(90deg, rgba(187,223,250,1) 0%, rgba(230,245,255,1) 50%, rgba(187,223,250,1) 100%);
+}
+
+/*   ---------------------- Menu ---------------------------------------- */
+header {
+    background-color: #f8f8f8;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0.4%;
+
+}
+
+.nav-img img {
+    height: 30px; /* Ajuste conforme necessário */
+}
+
+.nav-pages a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: .4s;
+}
+
+.nav-pages a:hover {
+    color: #374a5e; /* Cor de destaque ao passar o mouse */
+}
+
+/* ----------------- Serviços --------------------------------------------- */
+
+.servicoh1 {
+    margin: 20px 0;
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+}
+
+.fundo {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/* Ajuste a imagem de fundo para que ela ocupe todo o espaço disponível */
+main {
+    
+}
+.nameproduct {
+    display: flex;
+    justify-content:center; /* Alinha o texto horizontalmente */
+    align-items: center; /* Opcional: Alinha o texto verticalmente */
+   
+    
+}
+.descricao {
+margin-left: 8%;
+padding: 1.2%;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: lighter;
+
+}
+.preco {
+    padding: 15px;
+    
+    font-weight: initial;
+}
+section {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+section div {
+    
+    width: 300px;
+    background: linear-gradient(to bottom, #b3d9ff 0%, #e6f5ff 100%);
+    border-radius: 14px;
+    text-align: center;
+    padding: 40px;
+    box-shadow: 0 0 5px #f8f8f8;
+    margin: 20px;
+}
+.logoserv{
+    padding: 10px;
+    width: 120px;
+    border-radius: 20px;
+    
+}
+/* ---------------------------- Fim Serviço -----------------------------*/
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.158);
+    border-radius: 14px;
+    margin: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#mapa {
+    box-shadow: 10px 10px 10px rgba(13, 73, 236, 0.103);
+    border-radius: 8px;
+}
+.classs {
+    margin: 20px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: initial;
+}
+.formatação {
+    text-decoration: none; /* Remove o sublinhado */
+    color: inherit; /* Mantém a cor do texto */
+}
+.footerindex {
+    text-align: center;
+    padding: 6%;
+}
+.txtindex {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: left;
+    margin-left: 20px;
+}
